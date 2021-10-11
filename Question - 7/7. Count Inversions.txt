@@ -1,0 +1,50 @@
+Description
+
+You have given an array A of N elements. An Inversion Count of the array is defined as the number of pairs (i, j) such that Ai > Aj and i < j.
+Find the Inversion Count in A.
+
+Input Format
+
+The first line of input contains one integer T (1 ≤ T ≤ 1e5) — the number of test cases. Then T test cases follow.
+The first line of each test case contains N (2 ≤ N ≤ 1e5), the number of elements in an array A.
+The second line contains N space-separated integers A1, A2, …, AN, (0 ≤ Ai ≤ 1e9)
+It is guaranteed that the sum of N over all test cases does not exceed 5 x 1e5.
+
+Output Format
+
+For each test case, print the answer on a new line denoting the Inversion Count.
+
+Sample Input 1
+
+3
+
+4
+
+8 4 2 1
+
+3
+
+3 1 2
+
+6
+
+1 2 3 4 5 5
+
+Sample Output 1
+
+6
+
+2
+
+0
+
+Note
+
+Explanation 1:
+Inversion Pairs are (8, 4), (8, 2), (8, 1), (4, 2), (4, 1), (2, 1).
+
+Explanation 2:
+Inversion Pairs are (3, 1), (3, 2).
+
+Explanation 3:
+There are no Inversion Pairs. And hence, 0 Inversion Count. 

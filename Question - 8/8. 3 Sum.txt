@@ -1,0 +1,27 @@
+Description
+
+Given an array A of N integers and an integer target, find three integers in A such that the sum is closest to the target (absolute value of (sum-target) is minimum). Print the minimum absolute value of (sum-target). You cannot select an index more than one. All three indexes should be distinct.
+
+Input Format
+
+The first line contains T, the number of test cases (1<=T<=100).
+
+The first line contains two space-separated integers N, target where 1<=N<=10^3, -1e18<=target<=1e18.
+
+Next line contains N space-separated integers (-1e9<=Ai<=1e9).
+
+The Sum of N across all test cases ≤ 10^4.
+
+Output Format
+
+For each test case print the minimum absolute value of (sum-target).
+
+Sample Input 1
+ Copy
+
+1
+5 3
+1 2 3 4 5
+Sample Output 1
+
+3

@@ -1,0 +1,48 @@
+Description
+
+You are given N1 indistinguishable marbles of green colour and N2 indistinguishable marbles of red colour. You have to find the number of arrangements such that no more than K1 consecutive marbles of green colour and no more than K2 consecutive marbles of red colour are adjacent to each other.
+
+Input Format
+
+The first line of the input contains one integer T - the number of test cases. Then T test cases follow.
+
+The first and only line of each test case contains four space-separated integers N1, N2, K1, K2.
+
+Output Format
+
+For each test case, print the required number of arrangements. Since the answer can be large, print it modulo 1e8.
+
+Constraints
+
+1≤ T ≤ 1000
+
+1≤ N1, N2 ≤ 100
+
+1≤ K1, K2 ≤ 10
+
+Sample Input 1
+
+3
+2 2 1 5
+2 4 1 2
+3 5 2 1
+Sample Output 1
+
+3
+5
+0
+Note
+
+For the first test case, the following are the 3 different arrangements possible:
+
+
+
+
+For the second test case, the following are the 5 different arrangements possible:
+
+
+
+
+
+
+For the third test case, there are no arrangements possible.

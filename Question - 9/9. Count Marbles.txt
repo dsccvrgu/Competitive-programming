@@ -1,0 +1,40 @@
+Description
+
+You have N marbles, out of which C1 are red, C2 are blue and C3 are green. (C1+C2+C3 = N) You have to tell the number of different arrangements possible. Since the answer can be quite large, print it modulo 109+7.
+
+Assume that marbles of the same colour are indistinguishable.
+
+Input Format
+
+The first line of the input contains one integer T - the number of test cases. Then T test cases follow.
+The first line of each test case contains four integers N, C1, C2, C3 - the number of marbles, the numbers of red coloured marbles, the number of blue coloured marbles and the number of green coloured marbles respectively.
+
+Constraints
+
+1 ≤ T ≤ 1e5
+0 ≤ C1, C2, C3 ≤ N ≤ 1e5 
+It is guaranteed that C1 + C2 + C3 = N.
+
+Sample Input 1
+
+3
+
+3 1 1 1
+
+2 0 2 0
+
+5 4 0 1
+
+Sample Output 1
+
+6
+
+1
+
+5
+
+Note
+
+In the first test case of the example, the following are the 6 different arrangements possible:
+In the second test case of the example, only one different arrangement is possible:
+
